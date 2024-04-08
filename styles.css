@@ -1,0 +1,68 @@
+:root {
+    min-width: 800px;
+}
+
+
+
+body {
+    color:rgb(212, 155, 80);
+    text-align: center;
+}
+
+#main{
+    display:grid;
+    width:auto;
+    height:350px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+#categories{
+    display:grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(1fr);
+}
+
+.newCat {
+    width: 1fr;
+    height:auto;
+    color:whitesmoke;
+	background-color:rgb(6, 6, 154);
+	border: 4px solid black;
+	padding: 0.25em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bolder;
+    line-break: auto;
+}
+
+.tiles {
+    width: auto;
+    height:auto;
+	background-color:rgb(6, 6, 154);
+	border: 4px solid black;
+	padding: 0.25em;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.tiles:hover {
+    background-color:rgb(160, 128, 86) ;
+}
+
+#userEntry {
+    height: 30px;
+    padding-top: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    color:rgb(212, 155, 80);
+}
